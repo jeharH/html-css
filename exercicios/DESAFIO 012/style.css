@@ -24,7 +24,7 @@ html, body {
 
 header {
     background-color: black;
-    color: white;
+    color: white; 
     text-align: center;
 }
 
@@ -61,14 +61,31 @@ section {
     font-family: var(--fonte3);
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 .imagem {
     background-color: rgb(32, 32, 32);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.411);
     width: 300px;
+    text-shadow: 2px 2px 10px black;
+}
+
+#img01 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+}
+
+#img02 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
 }
 
 footer {
